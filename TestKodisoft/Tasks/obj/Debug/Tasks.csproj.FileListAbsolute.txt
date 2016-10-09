@@ -1,0 +1,14 @@
+D:\Projects\TestKodisoft\Tasks\obj\Debug\MainWindow.baml
+D:\Projects\TestKodisoft\Tasks\obj\Debug\MainWindow.g.cs
+D:\Projects\TestKodisoft\Tasks\obj\Debug\App.g.cs
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks_MarkupCompile.cache
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks.g.resources
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks.Properties.Resources.resources
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks.csproj.GenerateResource.Cache
+D:\Projects\TestKodisoft\Tasks\bin\Debug\Tasks.exe.config
+D:\Projects\TestKodisoft\Tasks\bin\Debug\Tasks.exe
+D:\Projects\TestKodisoft\Tasks\bin\Debug\Tasks.pdb
+D:\Projects\TestKodisoft\Tasks\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\TestKodisoft\Tasks\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks.exe
+D:\Projects\TestKodisoft\Tasks\obj\Debug\Tasks.pdb

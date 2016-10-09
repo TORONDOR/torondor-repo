@@ -1,0 +1,12 @@
+D:\Projects\TestKodisoft\Task3-4\bin\Debug\Task3-4.exe.config
+D:\Projects\TestKodisoft\Task3-4\bin\Debug\Task3-4.exe
+D:\Projects\TestKodisoft\Task3-4\bin\Debug\Task3-4.pdb
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\MainWindow.baml
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\MainWindow.g.cs
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\App.g.cs
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3-4_MarkupCompile.cache
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3-4.g.resources
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3_4.Properties.Resources.resources
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3-4.csproj.GenerateResource.Cache
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3-4.exe
+D:\Projects\TestKodisoft\Task3-4\obj\Debug\Task3-4.pdb
