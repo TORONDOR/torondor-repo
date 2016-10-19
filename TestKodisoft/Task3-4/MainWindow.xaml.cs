@@ -68,7 +68,41 @@ namespace Task3_4
             }
         }
 
-        private async void DoTasksAsync()
+        #region Task 4 
+        // using(await mutex.LockSection()) 
+        // {
+        //     critical code;
+        // }
+        private async void DoTasksAsync4()
+        {
+            i = 0;
+            using (await mutex.LockSection())
+            {
+                tBox.Dispatcher.Invoke(DispatcherPriority.Normal,
+                    new Action(
+                        delegate ()
+                        {
+                            i++;
+                            tBox.Text += '\n' + String.Format("Thread #{0} start", i);
+                        }
+                ));
+
+                // Simulate some work.
+                Thread.Sleep(5000);
+
+                tBox.Dispatcher.Invoke(DispatcherPriority.Normal,
+                    new Action(
+                        delegate ()
+                        {
+                            i++;
+                            tBox.Text += '\n' + String.Format("Thread #{0} stop", i);
+                        }
+                ));
+            }
+        }
+        #endregion
+
+        private async void DoTasksAsync3()
         {
             i = 0;
             await mutex.Lock();
@@ -103,7 +137,7 @@ namespace Task3_4
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    Thread newThread = new Thread(DoTasksAsync);
+                    Thread newThread = new Thread(DoTasksAsync3);
                     newThread.Name = String.Format("Thread{0}", j + 1);
                     newThread.Start();
                 }

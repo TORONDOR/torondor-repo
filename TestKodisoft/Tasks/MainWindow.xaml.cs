@@ -36,15 +36,18 @@ namespace Task5
             INumberGenerator test = new NumberGenerator();
             try
             {
+                //Get random number
                 randomNumberQueue = await test.GetNumberSequenceAsync(10);
             }
             catch (WebException exc)
             {
+                //Get random nambur using BCL in case of some error
                 randomNumberQueue = test.GetRandomNumbersUsingBCL(10);
             }
             finally
             {
-
+				if(randomNumberQueue.Count==0)
+					randomNumberQueue = test.GetRandomNumbersUsingBCL(10);
                 foreach (int value in randomNumberQueue)
                 {
                     someSurface.Content += String.Format("Random number {0} : {1}\n\r", counter, value);
